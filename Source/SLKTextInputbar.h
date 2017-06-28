@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Optional views to host outlets under the text view, adjusting its height based on its subviews. Non-visible by default. Subviews' layout should be configured using auto-layout as well. */
 @property (nonatomic, readonly, strong) UIView *topContentView;
-@property (nonatomic, readonly, strong) UIView *bottomContentView;
+@property (nonatomic, readonly, strong) UIView *contentView;
 
 /** The custom input accessory view, used as empty achor view to detect the keyboard frame. */
 @property (nonatomic, readonly, strong) SLKInputAccessoryView *inputAccessoryView;
