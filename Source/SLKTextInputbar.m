@@ -408,7 +408,8 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
 
 - (void)setBackgroundColor:(UIColor *)color
 {
-    self.barTintColor = color;
+//    self.barTintColor = color;
+    super.backgroundColor = color;
     self.editorContentView.backgroundColor = color;
 }
 

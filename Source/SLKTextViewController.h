@@ -149,7 +149,7 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface SLKTextViewController : UIViewController 
 /**
  Initializes a text view controller to manage an arbitraty scroll view. The caller is responsible for configuration of the scroll view, including wiring the delegate.
  
- @param a UISCrollView to be used as the main content area.
+ @param scrollView UISCrollView to be used as the main content area.
  @return An initialized SLKTextViewController object or nil if the object could not be created.
  */
 - (instancetype __nullable)initWithScrollView:(UIScrollView *)scrollView;
